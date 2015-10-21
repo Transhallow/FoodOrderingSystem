@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fos.inspiron.foodorderingsystem.Order"
+    >
+
+    <item
+        android:id="@+id/Call"
+        android:orderInCategory="100"
+        android:title="Call Waiter"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/back"
+        android:title="next"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/back"
+
+        />
+    <item
+        android:id="@+id/Pay"
+        android:title="Payment"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom"
+
+        />
+</menu>
+

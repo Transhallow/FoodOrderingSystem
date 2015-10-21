@@ -1,0 +1,30 @@
+<android.support.v4.widget.DrawerLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <com.fos.inspiron.foodorderingsystem.Tab.SlidingTabLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:id="@+id/tabs"
+        android:background="@color/primaryColorDark"
+
+        />
+
+<android.support.v4.view.ViewPager
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/pager"
+    android:layout_below="@+id/tabs"></android.support.v4.view.ViewPager>
+    </RelativeLayout>
+
+
+</android.support.v4.widget.DrawerLayout>
+
